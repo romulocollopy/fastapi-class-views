@@ -3,7 +3,7 @@ from lib.views import View
 
 class HomeView(View):
 
-    def get(self):
+    async def get(self):
         return {'message': 'home'}
 
 
